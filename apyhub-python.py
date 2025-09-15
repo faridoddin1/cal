@@ -3,7 +3,11 @@ import tempfile
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery
-from config import *
+import os
+
+API_ID = os.environ.get("API_ID")
+API_HASH = os.environ.get("API_HASH")
+API_TOKEN = os.environ.get("API_TOKEN")
 
 # ApyHub API configuration
 APYHUB_TOKEN = os.environ.get("APYHUB_TOKEN")
