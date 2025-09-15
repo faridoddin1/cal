@@ -21,9 +21,9 @@ android {
         create("release") {
             // These values will be provided via GitHub Secrets in the CI/CD environment
             storeFile = file(System.getenv("KEYSTORE_PATH") ?: "/tmp/keystore.jks")
-            storePassword = System.getenv("KEYSTORE_PASSWORD")
-            keyAlias = System.getenv("KEY_ALIAS")
-            keyPassword = System.getenv("KEY_PASSWORD")
+            storePassword = System.getenv("SIGNING_STORE_PASSWORD")
+            keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+            keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
         }
     }
 
