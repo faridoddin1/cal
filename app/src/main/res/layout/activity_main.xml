@@ -100,9 +100,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHeight_percent="0.6">
 
-        <Button style="@style/CalculatorButton" android:id="@+id/buttonClear" android:background="@drawable/button_circle_light_grey" android:text="AC" />
-        <Button style="@style/CalculatorButton" android:id="@+id/buttonNegate" android:background="@drawable/button_circle_light_grey" android:text="+/-" />
-        <Button style="@style/CalculatorButton" android:id="@+id/buttonPercent" android:background="@drawable/button_circle_light_grey" android:text="%" />
+        <Button style="@style/CalculatorButton" android:id="@+id/buttonClear" android:background="@drawable/button_circle_lavender" android:text="AC" />
+        <Button style="@style/CalculatorButton" android:id="@+id/buttonNegate" android:background="@drawable/button_circle_lavender" android:text="+/-" />
+        <Button style="@style/CalculatorButton" android:id="@+id/buttonPercent" android:background="@drawable/button_circle_lavender" android:text="%" />
         <Button style="@style/CalculatorButton" android:id="@+id/buttonDivide" android:background="@drawable/button_circle_dark_blue" android:text="÷" android:textColor="@color/text_white"/>
 
         <Button style="@style/CalculatorButton" android:id="@+id/button7" android:background="@drawable/button_circle_white" android:text="7" />
@@ -120,7 +120,7 @@
         <Button style="@style/CalculatorButton" android:id="@+id/button3" android:background="@drawable/button_circle_white" android:text="3" />
         <Button style="@style/CalculatorButton" android:id="@+id/buttonAdd" android:background="@drawable/button_circle_dark_blue" android:text="+" android:textColor="@color/text_white"/>
 
-        <Button style="@style/CalculatorButton" android:id="@+id/button0" android:layout_columnSpan="2" android:background="@drawable/button_circle_white" android:text="0" />
+        <Button style="@style/CalculatorButton" android:id="@+id/button0" android:layout_columnSpan="2" android:background="@drawable/button_pill_white" android:text="0" />
         <Button style="@style/CalculatorButton" android:id="@+id/buttonDot" android:background="@drawable/button_circle_white" android:text="." />
         <Button style="@style/CalculatorButton" android:id="@+id/buttonEquals" android:background="@drawable/button_circle_dark_blue" android:text="=" android:textColor="@color/text_white"/>
 
