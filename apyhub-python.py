@@ -86,8 +86,3 @@ def handle_media(client, message):
 
 if __name__ == "__main__":
     app.run()
-le' in locals() and os.path.exists(downloaded_file):
-            os.remove(downloaded_file)
-
-if __name__ == "__main__":
-    app.run()
