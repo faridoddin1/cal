@@ -1,6 +1,6 @@
 calculator app by gemini
 
-used apps: gemini-cli, git, keytool
+used apps: gemini-cli, git, keytool, gradle 9.0
 
 create android calculator with kotlin, push to github then build with github action for apk signed file
 
